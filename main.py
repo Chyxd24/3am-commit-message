@@ -4,7 +4,7 @@ Writes one line to /output/entry.txt. Stdlib only, deterministic.
 """
 import os
 
-ENTRY = 'fix: made it worse, but consistently. Renamed var to itself. Closes #1, opens #2 and #3. 3am, no tests, pushing straight to main. YOLO.'
+ENTRY = 'fix: made it worse, but consistently. Renamed the variable to itself. Closes #1, opens #2 and #3. 3am, no tests, pushed straight to main. Deploys on Friday.'
 
 assert 1 <= len(ENTRY) <= 200, len(ENTRY)
 p = "/output/entry.txt"
